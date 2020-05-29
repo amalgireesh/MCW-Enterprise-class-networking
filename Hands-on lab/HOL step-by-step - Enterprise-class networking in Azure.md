@@ -583,17 +583,19 @@ In this exercise, you will provision and configure an Azure firewall in your net
 
     -  Region: **(US) South Central US**
 
-    -  Select a Virtual network: Select **Use existing** and then select **WGVNet1**.
+    -  Choose a Virtual network: Select **Use existing** 
+    
+    -  Virtual Network: **WGVNet1**
 
-    -  Public IP address: **Create new**
+    -  Firewall Public IP address: **Add new**
 
-    -  Public IP address name: **azureFirewall-ip**
+    -  Name: **azureFirewall-ip**
 
-    -  Public IP address SKU: **Standard**
+![](images/ecn19.png)
 
 3.  Select **Review + create** and then select **Create** to provision the Azure Firewall. 
 
-    ![Firewall creation and provision.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image172.png "Create firewall blade")
+![](images/ecn20.png)
 
 ### Task 2: Create Firewall Rules
 
