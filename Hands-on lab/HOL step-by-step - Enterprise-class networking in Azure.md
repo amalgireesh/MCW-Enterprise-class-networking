@@ -26,51 +26,51 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 <!-- TOC -->
 
-- [Enterprise-class networking in Azure hands-on lab step-by-step](#enterprise-class-networking-in-azure-hands-on-lab-step-by-step)
-  - [Abstract and learning objectives](#abstract-and-learning-objectives)
-  - [Overview](#overview)
-  - [Solution architecture](#solution-architecture)
-  - [Requirements](#requirements)
-  - [Help references](#help-references)
-  - [Exercise 1: Create a Virtual Network and provision subnets](#exercise-1-create-a-virtual-network-and-provision-subnets)
-    - [Task 1: Create a Virtual Network](#task-1-create-a-virtual-network)
-    - [Task 2: Configure subnets](#task-2-configure-subnets)
-  - [Exercise 2: Create a Network Monitoring Solution](#exercise-2-create-a-network-monitoring-solution)
-    - [Task 1: Create a Log Analytics Workspace](#task-1-create-a-log-analytics-workspace)
-    - [Task 2: Configure Network Watcher](#task-2-configure-network-watcher)
-  - [Exercise 3: Create route tables with required routes](#exercise-3-create-route-tables-with-required-routes)
-    - [Task 1: Create route tables](#task-1-create-route-tables)
-    - [Task 2: Add routes to each route table](#task-2-add-routes-to-each-route-table)
-  - [Exercise 4: Configure n-tier application and validate functionality](#exercise-4-configure-n-tier-application-and-validate-functionality)
-    - [Task 1: Create a load balancer to distribute load between the web servers](#task-1-create-a-load-balancer-to-distribute-load-between-the-web-servers)
-    - [Task 2: Configure the load balancer](#task-2-configure-the-load-balancer)
-  - [Exercise 5: Build the management station](#exercise-5-build-the-management-station)
-    - [Task 1: Build the management VM](#task-1-build-the-management-vm)
-  - [Exercise 6: Virtual Network Peering](#exercise-6-virtual-network-peering)
-    - [Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa](#task-1-configure-vnet-peering-wgvnet1-to-wgvnet2-and-vice-versa)
-  - [Exercise 7: Provision and configure Azure firewall solution](#exercise-7-provision-and-configure-azure-firewall-solution)
-    - [Task 1: Provision the Azure firewall](#task-1-provision-the-azure-firewall)
-    - [Task 2: Create Firewall Rules](#task-2-create-firewall-rules)
-    - [Task 3: Associate route tables to subnets](#task-3-associate-route-tables-to-subnets)
-  - [Exercise 8: Configure Site-to-Site connectivity](#exercise-8-configure-site-to-site-connectivity)
-    - [Task 1: Create OnPrem Virtual Network](#task-1-create-onprem-virtual-network)
-    - [Task 2: Configure gateway subnets for on premise Virtual Network](#task-2-configure-gateway-subnets-for-on-premise-virtual-network)
-    - [Task 3: Create the first gateway](#task-3-create-the-first-gateway)
-    - [Task 4: Create the second gateway](#task-4-create-the-second-gateway)
-    - [Task 5: Connect the gateways](#task-5-connect-the-gateways)
-  - [Exercise 9: Configure Network Security Groups and Application Security Groups](#exercise-9-configure-network-security-groups-and-application-security-groups)
-    - [Task 1: Create application security groups](#task-1-create-application-security-groups)
-    - [Task 2: Configure application security groups](#task-2-configure-application-security-groups)
-    - [Task 3: Create network security group](#task-3-create-network-security-group)
-  - [Exercise 10: Validate connectivity from 'on-premises' to Azure](#exercise-10-validate-connectivity-from-on-premises-to-azure)
-    - [Task 1: Create a virtual machine to validate connectivity](#task-1-create-a-virtual-machine-to-validate-connectivity)
-    - [Task 2: Configure routing for simulated 'on-premises' to Azure traffic](#task-2-configure-routing-for-simulated-on-premises-to-azure-traffic)
-  - [Exercise 11: Using Network Watcher to Test and Validate Connectivity](#exercise-11-using-network-watcher-to-test-and-validate-connectivity)
-    - [Task 1: Configuring the Storage Account for the NSG Flow Logs](#task-1-configuring-the-storage-account-for-the-nsg-flow-logs)
-    - [Task 2: Configuring Diagnostic Logs](#task-2-configuring-diagnostic-logs)
-    - [Task 3: Reviewing Network Traffic](#task-3-reviewing-network-traffic)
-    - [Task 4: Network Connection Troubleshooting](#task-4-network-connection-troubleshooting)
-  - [After the hands-on lab](#after-the-hands-on-lab)
+- Enterprise-class networking in Azure hands-on lab step-by-step
+  - Abstract and learning objectives
+  - Overview
+  - Solution architecture
+  - Requirements
+  - Help references
+  - Exercise 1: Create a Virtual Network and provision subnets
+    - Task 1: Create a Virtual Network
+    - Task 2: Configure subnets
+  - Exercise 2: Create a Network Monitoring Solution
+    - Task 1: Create a Log Analytics Workspace
+    - Task 2: Configure Network Watcher
+  - Exercise 3: Create route tables with required routes
+    - Task 1: Create route tables
+    - Task 2: Add routes to each route table
+  - Exercise 4: Configure n-tier application and validate functionality
+    - Task 1: Create a load balancer to distribute load between the web servers
+    - Task 2: Configure the load balancer
+  - Exercise 5: Build the management station
+    - Task 1: Build the management VM
+  - Exercise 6: Virtual Network Peering
+    - Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa
+  - Exercise 7: Provision and configure Azure firewall solution
+    - Task 1: Provision the Azure firewall
+    - Task 2: Create Firewall Rules
+    - Task 3: Associate route tables to subnets
+  - Exercise 8: Configure Site-to-Site connectivity
+    - Task 1: Create OnPrem Virtual Network
+    - Task 2: Configure gateway subnets for on premise Virtual Network
+    - Task 3: Create the first gateway
+    - Task 4: Create the second gateway
+    - Task 5: Connect the gateways
+  - Exercise 9: Configure Network Security Groups and Application Security Groups
+    - Task 1: Create application security groups
+    - Task 2: Configure application security groups
+    - Task 3: Create network security group
+  - Exercise 10: Validate connectivity from 'on-premises' to Azure
+    - Task 1: Create a virtual machine to validate connectivity
+    - Task 2: Configure routing for simulated 'on-premises' to Azure traffic
+  - Exercise 11: Using Network Watcher to Test and Validate Connectivity
+    - Task 1: Configuring the Storage Account for the NSG Flow Logs
+    - Task 2: Configuring Diagnostic Logs
+    - Task 3: Reviewing Network Traffic
+    - Task 4: Network Connection Troubleshooting
+  - After the hands-on lab
 
 <!-- /TOC -->
 
@@ -132,25 +132,29 @@ Duration: 15 minutes
 
 2.  On the **Create virtual network** blade, enter the following information:
 
-    -  Name: **WGVNet1**
+  -  Subscription: **Select your subscription**.
+  -  Resource group: Select **WGVNetRG1**.
+  -  Name: **WGVNet1**
+  -  Region: **(US) South Central US**
 
-    -  Address space: **10.7.0.0/20**
+![](images/ecn1.png)
 
-    -  Subscription: **Select your subscription**.
+3. Select **Next:IP Addresses**
+  -  Address space: **10.7.0.0/20**
+  -  Click on **Add Subnet**. 
+  -  Subnet name: **GatewaySubnet** (This name is fixed and cannot be changed.)
+  -  Subnet address range: **10.7.0.0/29**
+  -  Then select **Add**.
+   
+![](images/ecn2.png)
 
-    -  Resource group: Select **Create new**, and enter the name **WGVNetRG1**.
+4. Upon completion, it should look like the following screenshot. Then click on **Review+create**
 
-    -  Location: **(US) South Central US**
+![](images/ecn3.png)
 
-    -  Subnet name: **GatewaySubnet** (This name is fixed and cannot be changed.)
+5. Validate the information is correct, and select **Create**.
 
-    -  Subnet address range: **10.7.0.0/29**
-
-3.  Leave the other options as default for now.
-
-4.  Upon completion, it should look like the following screenshot. Validate the information is correct, and select **Create**.
-
-    ![The create virtual network dialog is displayed.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image26.png "Create virtual network")
+![](images/ecn4.png)
 
 5.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
@@ -178,7 +182,7 @@ Duration: 15 minutes
 
 4.  When your dialog looks like the following screenshot, select **OK** to create the subnet.
 
-    ![Field values in the Add Subnet blade are set to the previously defined settings.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image30.png "Add Subnet blade")
+![](images/ecn5.png)
 
 5. Repeat Step 3, enter the following information for the Azure Firewall which we will use to control traffic flow in and out of the Network. 
 
@@ -192,7 +196,11 @@ Duration: 15 minutes
 
     -  Service Endpoints: **Leave as Default**
 
-    ![Field values in the Add Subnet blade are set to the previously defined settings.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image159.png "Add Subnet blade")
+![](images/ecn6.png)
+
+6. Subnets will be visible as shown shown below:
+
+![](images/ecn7.png)
 
 ## Exercise 2: Create a Network Monitoring Solution
 
@@ -202,33 +210,36 @@ Duration: 15 minutes
 
 1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the list of Marketplace categories, select **IT & Management Tools** followed by selecting **Log Analytics**.
 
+![](images/ecn8.png)
+
 2.  On the **Create workspace** blade, enter the following information:
 
-    -  Name: **Enter Unique Name all lowercase**
+  -  Subscription: **Select your subscription**.
+  -  Resource group: Select **Create new**, and enter the name **MonitoringRG**.
+  -  Name: **Enter Unique Name all lowercase**
+  -  Region: **East US**
+    
+![](images/ecn9.png)
+ 
+3. Click on **Next:Pricing tier**.
+  -  Pricing Tier: **Pay-as-you-go**
+ Then click on **Review+create**.
+ 
+![](images/ecn10.png)
 
-    -  Subscription: **Select your subscription**.
-
-    -  Resource group: Select **Create new**, and enter the name **MonitoringRG**.
-
-    -  Location: **East US**
-
-    -  Pricing Tier: **Pay-as-you-go**
-
-3.  Upon completion, it should look like the following screenshot. Validate the information is correct, and select **OK**.
-
-    ![This represents the properly filled out fields when creating a Log Analytics Workspace.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image160.png "Create Log Analytics Workspace")
+4.  Review the information and select **Create**.
 
 ### Task 2: Configure Network Watcher
 
-1.  From your **LABVM**, connect to the Azure portal, select **All Services**, and in the Category list, select **Networking** followed by selecting **Network Watcher**.
+1. From your **LABVM**, connect to the Azure portal, select **All Services**, and in the Category list, select **Networking** followed by selecting **Network Watcher**.
 
-    ![This is a Network Watcher configuration.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image161.png "All Services blade")
+![](images/ecn18.png)
 
-2.  In the **Overview** blade, expand your subscription and select **SouthCentralUS** by selecting the **...** button to the right then enabling the service within the region.
+2. In the **Overview** blade, expand your subscription and select **SouthCentralUS** by selecting the **...** button to the right then verify it is **enabled**.
 
-3.   Repeat the step above this time enabling the service within the **East US** region.
+3. Repeat the step above this time and click on **Enable network watcher** within the **East US** region.
 
-   ![This is the Network Watcher blade where the enable region is selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image162.png "Network Watcher Overview blade")
+![](images/ecn12.png)
 
 ## Exercise 3: Create route tables with required routes
 
@@ -239,6 +250,8 @@ Route Tables are containers for User Defined Routes (UDRs). The route table is c
 ### Task 1: Create route tables
 
 1.  On the main portal menu, select **+ Create a Resource**. Type **route** into the search box, and select **Route table** then select **Create**.
+
+![](images/ecn15.png)
 
 2.  On the **Create a Route table** blade enter the following information:
 
@@ -380,17 +393,17 @@ In this exercise, you will create and configure a load balancer to distribute lo
 
 ### Task 2: Configure the load balancer
 
-1.  Open the **WGWEBLB** load balancer in the Azure portal.
+1. Open the **WGWEBLB** load balancer in the Azure portal.
 
-2.  Select **Backend pools**, and select **+Add** at the beginning.
+2. Select **Backend pools**, and select **+Add** at the beginning.
 
     ![In the Load balancer blade under Settings, Backend pools is selected, and the Add button is selected as well.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image67.png "Load balancer blade")
 
-3.  Enter **LBBE** for the pool name. Under **Associated to**, select **Virtual machine**.
+3. Enter **LBBE** for the pool name. Under **Associated to**, select **Virtual machine**. 
 
-    ![In the Name field in the Add backend pool blade is LBBE, and under Associated to, Virtual machine is selected.](images/2020-01-27-18-33-43.png "Add backend pool blade")
+4. Under **Virtual machine**, choose the **WGWEB1** virtual machine and private IP address, then for the second virtual machine choose the **WGWEB2** virtual machine and private IP address and select **Add**.
 
-4.  Under **Virtual machine**, choose the **WGWEB1** virtual machine and private IP address, then for the second virtual machine choose the **WGWEB2** virtual machine and private IP address.
+![](images/ecn16.png)
 
 5.  Select **Add** to add the backend pool.
 
@@ -506,7 +519,9 @@ In this exercise, management of the Azure-based systems will only be available f
 
     -  Enable auto-shutdown: **Off**
 
-6.  On the **Create a virtual machine** blade, on the **Review + Create** tab, ensure the validation passes, and select **Create**. The virtual machine will take about 5 minutes to provision.
+6.  On the **Create a virtual machine** blade, on the **Review + Create** tab, ensure the validation passes. Select **Create**. The virtual machine will take about 5 minutes to provision.
+
+![](images/ecn17.png)
 
 ## Exercise 6: Virtual Network Peering
 
