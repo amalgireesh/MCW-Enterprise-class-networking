@@ -137,7 +137,7 @@ Duration: 15 minutes
   -  Name: **WGVNet1**
   -  Region: **(US) South Central US**
 
-![](images/ecn1.png)
+![](images/ecn01.png)
 
 3. Select **Next:IP Addresses**
   -  Address space: **10.7.0.0/20**
